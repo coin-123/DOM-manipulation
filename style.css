@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .container{
+    width: 400px;
+    background-color: #06315a;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+
+ }
+.top-screen{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
+    color: #ffff;
+    text-align: right;
+    border-radius: 10px 10px 0 0;
+    padding-top: 10px;
+}
+.butons-for-all{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+.btn{
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 0.2px solid #FDF0F0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover{
+    background-color: rgb(144, 144, 144);
+}
+.btn-operator, .btn-oprite, .btn-oprito {
+    background-color: rgb(75, 75, 221);
+    color: tomato;
+}
+.equal{
+    grid-row: 4/6;
+    grid-column: 4;
+}
+.zero{
+    grid-column: span 2;
+}
